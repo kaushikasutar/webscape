@@ -1,0 +1,151 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Sometype Mono', monospace;
+    /* background-color: #084479; */
+    scroll-behavior: smooth;
+    background-image: url('https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?w=1380&t=st=1698478685~exp=1698479285~hmac=02c284d36cab0ce4992c0339f94e33565d60ff8bfa2e770c995aa0a497b42ebe');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    /* background-color: #f2f2f2; */
+    /* border: 1px solid black; */
+    padding: 20px;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+}
+header h1 {
+    color: #fff;
+}
+
+header nav{
+    margin-top: 2rem;
+}
+
+header nav ul li i{
+    margin-right: 13px;
+}
+
+header nav ul li{
+    font-size: 1.3em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+
+
+
+/*card section*/
+
+.infographics{
+    /* border: 1px solid red; */
+}
+.infographics .card{
+    height:600px;
+    /* border: 2px solid white; */
+    margin: 5%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 20px;
+    /*  */
+    backdrop-filter: blur(10px);
+    border-radius:30px;
+    transition: 0.2s ease-in;
+}
+
+.infographics .card:hover{
+    cursor:pointer;
+    background-color: #001238;
+}
+
+.infographics .card p{
+    width: 300px;
+}
+
+.infographics .card img{
+    width: 500px;
+    height: 300px;
+}
+
+
+/*Navigations*/
+header nav ul li span{
+transition: 0.2s ease-in;
+}
+header nav ul li span:hover{
+    color: #053258;
+    background-color: #fff;
+}
+
+/*
+
+Create the parallax scrolling effect 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+
+*/
+
+footer{
+    font-size: 1em;
+    background-color: #061e4e;
+    height: 300px;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* border: 1px solid red; */
+}
+footer h1{
+    margin-bottom: 10px;
+}
+.section5 ul li{
+    list-style: none;
+}
+.section5 ul li i{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.4em;
+}
+
+header .header{
+    text-decoration: none;
+}
